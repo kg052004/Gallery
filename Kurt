@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+                <title>Gallery</title>
+                
+</head>
+<body>
+    
+    <script>
+                    
+                    function moj() {
+document.getElementById("main").style.visibility = "hidden";
+document.getElementById("page").style.visibility = "visible";
+document.getElementById("page2").style.visibility = "visible";
+}
+
+function print() {
+document.getElementById("page2").style.visibility = "hidden";
+document.getElementById("cons").style.visibility = "visible";
+    }
+
+
+    </script>
+    
+     <button id="page"  style="color:white;background-color: orange; outline: none; border: none; margin-left: 103px; margin-top: 267px; position: fixed; height: 100px; width: 150px; border-radius: 15px; visibility: hidden;"><b style="color: red">Error</b><br> Face not detected !</button>
+    
+
+    
+    <button id="cons"  style="color:white;background-color: orange; outline: none; border: none; margin-left: 103px; margin-top: 267px; position: fixed; height: 100px; width: 150px; border-radius: 15px; visibility: hidden;">Confirm your fingerprint !</button>
+    
+        <div id="page2" onclick="print()"></div>
+        
+     <div id="main" onclick="moj()">
+
+
+            <div class="line"></div>     
+            <div class="settings" ><b>•</b></div>
+            <div class="albums"><b>Albums</b></div>        
+        
+            <div class="gall1"></div>
+            <div class="gall2"></div>
+          <div class="gall3"></div>
+          <div class="gall4"></div>
+          <div class="gall5"></div>
+             <div class="gall6"></div>
+          <div class="gall7"></div>
+          <div class="gall8"></div>
+          <div class="gall9"></div>
+            <div class="gall10"></div>
+            <div class="gall11"></div>
+            <div class="gall12"></div>
+            
+                
+                <div class="albm1"><b>Filipino</b> </div>
+                <div class="num1">(126)</div>
+                
+                <div class="albm2"><b>Mapeh</b> </div>
+                <div class="num2">(114)</div>
+                
+                                            
+        <div class="albm3"><b>Practical Research</b></div>
+        <div class="num3">(234)</div>
+        
+        <div class="albm4"><b>Philosopy</b></div>
+        <div class="num4">(234)</div>
+                                
+        <div class="albm5"><b>CSS</b></div>
+        <div class="num5">(434)</div>
+        
+        <div class="albm6"><b>Study</b></div>
+        <div class="num6">(434)</div>
+        
+        <div class="albm7"><b>Screenshots</b><div>
+        <div class="num7">(57)</div>
+        
+        <div class="albm8"><b>Downloads</b><div>
+        <div class="num8">(194)</div>
+        
+        <div class="albm9"><b>Programming</b><div>
+        <div class="num9">(173)</div>
+        
+        <div class="albm10"><b>Math</b><div>
+        <div class="num10">(94)</div>
+        
+        <div class="albm11"><b>Videos</b><div>
+        <div class="num11">(233)</div>
+                                
+      <div class="albm12"><b>+</b><div>
+                      
+              </div>
+                <style>                        
+                                
+             body{
+             background-color: #141727;
+             }
+        
+                    
+            #page2{
+                            background-image: url("https://cdn.dribbble.com/users/2159400/screenshots/8290728/facerecognite_iconanimation.gif");
+                            height: 111px;
+                            border-radius: 10px;
+                            width: 150px;
+                            background-size: 155px;
+                            margin-top: 132px;
+                            margin-left: 103px;
+                            position: fixed;
+                            visibility: hidden;
+           }
+
+
+            .albm1{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: -897px;
+                                            margin-left: 19px;        
+                                }
+                                                                
+                                    .num1{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 114px;        
+                                }
+                                
+                                    .albm2{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 198px;        
+                                }
+                                
+                                    .num2{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 304px;        
+                                }
+                                
+                                    .albm3{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: 164px;
+                                            margin-left: 198px;        
+                                }
+                                
+                                    .num3{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 294px;        
+                                }
+                                
+                                        .albm4{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 19px;        
+                                }
+                                
+                                    .num4{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 118px;        
+                                }
+                                
+                                        .albm5{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: 161px;
+                                            margin-left: 18px;        
+                                }
+                                
+                                    .num5{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 118px;        
+                                }
+                                
+                                .albm6{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 198px;        
+                                }
+                                
+                                    .num6{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 298px;        
+                                }
+                                
+                                
+                                    .albm7{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: 164px;
+                                            margin-left: 19px;        
+                                }
+                                
+                                    .num7{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 109px;        
+                                }
+                                
+                                
+                                .albm8{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 176px;        
+                                }
+                                
+                                    .num8{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 111px;        
+                                }
+                                
+                                            .albm9{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: 164px;
+                                            margin-left: -177px;        
+                                }
+                                
+                                    .num9{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 100px;        
+                                }
+                                
+                                        .albm10{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 184px;        
+                                }
+                                
+                                    .num10{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 104px;        
+                                }
+                            
+                                    .albm11{
+                                                font-size: 18px;
+                                                color: white;
+                                            margin-top: 164px;
+                                            margin-left: -187px;        
+                                }
+                                
+                                    .num11{
+                                                font-size: 14px;
+                                                color: white;
+                                            margin-top: -19px;
+                                            margin-left: 104px;        
+                                }
+                                
+                                
+                                        .albm12{
+                                            font-size: 28px;
+                                            color: black;
+                                            margin-top: -108px;
+                                            margin-left: 239px;        
+                                            position: absolute;
+                                            z-index: 99999999;
+                                }
+                                
+                                
+                                 .albums{
+                                            font-size: 22px;
+                                            color: black;
+                                            margin-top: -55px;
+                                            margin-left: 19px;        
+                                            position:fixed;
+                                            z-index: 999;
+                                }
+                                
+                                     .settings{
+                                            font-size: 48px;
+                                            color: black;
+                                            margin-top: -67px;
+                                            margin-left: 315px;        
+                                            position: fixed;
+                                            z-index: 999;
+                                }
+                                
+                                
+                                
+                                .line{
+                                                height: 47px;
+                                                width: 97%;
+                                                position: fixed;
+                                                z-index: 999;
+                                                margin-top: -66px;
+                                                margin-left: -3px;
+                                                background-color: white;
+                                              border-radius: 10px;
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+                                }
+                                
+                          .gall1{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: 60px;
+                                                margin-left: 8px;
+                                                background-image: url("https://i.ibb.co/3ppNWB2/eef69adf0c6cff728e7e6d078fdc7227.jpg");
+                                                background-size: 145px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px           black;
+                                                
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+                } 
+
+                @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                                
+                        
+
+
+
+                       .gall2{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: -134px;
+                                                margin-left: 188px;
+                                                background-image: url("https://i.ibb.co/bzCGG4Z/images-4.jpg");
+                                                background-size: 145px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+             @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                                
+                        
+
+
+                       .gall3{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: 45px;
+                                                margin-left: 8px;
+                                                background-image: url("https://i.ibb.co/hmQDk23/bloomin-by-suicidebysafetypin-d8nmqhd-fullview-2.jpg");
+                                                background-size: 167px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                             animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+           @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                                
+                        
+
+
+
+                       .gall4{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: -130px;
+                                                margin-left: 188px;
+                                                background-image: url("https://i.ibb.co/92WLN90/5770c9ff12ec2224f8d556fa861467e9.jpg");
+                                                background-size: 137px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+             @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                        
+
+
+                       .gall5{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: 45px;
+                                                margin-left: 8px;
+                                                background-image: url("https://i.ibb.co/F0B7M70/images-3.jpg");
+                                                background-size: 137px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+            @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                                
+                        
+
+
+
+                      .gall6{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: -134px;
+                                                margin-left: 188px;
+                                                background-image:  url("https://i.ibb.co/xL5Ty7F/f6af598b04f94178b4e3175f4ff1d433.jpg");
+                                                background-size: 145px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+            @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                                
+                        
+
+
+                         .gall7{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: 45px;
+                                                margin-left: 8px;
+                                                background-image: url("https://i.ibb.co/C2vfFjk/doll-photo.jpg");
+                                                background-size: 137px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+             @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                                
+                            
+
+
+
+                   .gall8{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: -134px;
+                                                margin-left: 188px;
+                                                background-image: url("https://i.ibb.co/M1N70pp/original.jpg");
+                                                background-size: 145px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+           
+                                 @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                                
+
+
+
+                   .gall9{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: 45px;
+                                                margin-left: 8px;
+                                                background-image: url("https://i.ibb.co/3ss3krk/status-motivasi-kehidupan-7-768x768.jpg");
+                                                background-size: 147px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+            @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                            
+
+
+
+                       .gall10{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: -134px;
+                                                margin-left: 188px;
+                                                background-image: url("https://i.ibb.co/R0N2XQG/B612-20210622-201600-525.jpg");
+                                                background-size: 146px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+            @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                            
+
+
+                       .gall11{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: 45px;
+                                                margin-left: 8px;
+                                                background-image: url("https://i.ibb.co/g9qTnFN/Screenshot-20210621-145006.png");
+                                                background-size: 147px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+            @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+                            
+
+
+                   .gall12{
+                                                height: 134px;
+                                                width: 147px;
+                                                margin-top: -134px;
+                                                margin-left: 188px;
+                                                background-color: #fff;
+                                                background-size: 145px;
+                                                border-radius: 10%;
+                                                box-shadow: 2px 2px 10px black;
+                                                animation: pic ease 5s; 
+
+            animation-iteration-count: 1; 
+
+            animation-fill-mode: forwards; 
+
+        } 
+
+             @keyframes pic { 
+
+                0% { 
+
+                opacity: 0; 
+
+                } 
+
+                100% { 
+
+                opacity: 1; 
+   
+               } 
+                                     }
+
+                </style>
+                
+        
+</body>
+</html>
